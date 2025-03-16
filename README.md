@@ -56,61 +56,7 @@ GitHub Flow is a lightweight, branch-based workflow that's perfect for teams and
 8.  **Repeat:**
     * Start the process again for your next feature or bug fix.
 
-# Exercise 2: TypeScript Scripts
-
-This exercise involved creating TypeScript scripts for various tasks. Here are the scripts and their functionalities:
-
-1.  **Temperature Converter (Fahrenheit to Celsius):**
-    * Converts Fahrenheit to Celsius and rounds the result to an integer.
-    * Example:
-
-    ```typescript
-    // Example usage:
-    const temp = new Temperature(90);
-    console.log("Celsius:", temp.convertToCelsius()); // Output: Celsius: 32
-    ```
-
-2.  **Distance Converter (cm to km or vice versa):**
-    * Converts centimeters to kilometers or kilometers to centimeters.
-    * Example:
-
-    ```typescript
-    // Example usage:
-    const distance = new Distance(100000, "cm");
-    console.log("Kilometers:", distance.convertToKm()); // Output: Kilometers: 1
-    ```
-
-3.  **Odd/Even Checker:**
-    * Checks if a given number is odd or even.
-    * Example:
-
-    ```typescript
-    // Example usage:
-    const checker = new NumberChecker(7);
-    console.log("isEven:", checker.isEven()); // Output: isEven: false
-    ```
-
-4.  **String Remover:**
-    * Removes the first occurrence of a search string from a given string.
-    * Example:
-
-    ```typescript
-    // Example usage:
-    const result = StringRemover.removeFirstOccurrence("Hello World", "ello");
-    console.log("Result:", result); // Output: Result: Ho World
-    ```
-
-5.  **Palindrome Checker:**
-    * Checks if a given string is a palindrome.
-    * Example:
-
-    ```typescript
-    // Example usage:
-    const isPalindrome = PalindromeChecker.isPalindrome("madam");
-    console.log("Palindrome:", isPalindrome); // Output: Palindrome: true
-    ```
-
-# Making Script for exercise 2
+# Making Script for exercise 2 using Typescript
 1. Convert fahrenheit into celcius as fahreheitIntoCelsius.ts
 2. Convert distance(cm into km or vice versa) as cmIntoKm.ts
 3. Find odd or even number as oddEven.ts
